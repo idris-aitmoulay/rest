@@ -11,14 +11,14 @@
  - **User registration API** - Using [passport](http://passportjs.org/) (optional)
  - **Social login API** - Facebook, Google and GitHub (optional)
  - **Password reset API** - Sending emails with [SendGrid API](https://sendgrid.com/docs/API_Reference/index.html) (optional)
- - **Listing query strings** - `q`, `page`, `limit`, `fields` etc. already provided by [querymen](https://github.com/diegohaz/querymen)
- - **Query string validator** - Using [querymen](https://github.com/diegohaz/querymen)
- - **Request body validator** - Using [bodymen](https://github.com/diegohaz/bodymen)
- - **Standard error responses** - Using [querymen](https://github.com/diegohaz/querymen) and [bodymen](https://github.com/diegohaz/bodymen) error handlers
+ - **Listing query strings** - `q`, `page`, `limit`, `fields` etc. already provided by [querymen](https://github.com/makotovnjp/querymen)
+ - **Query string validator** - Using [querymen](https://github.com/makotovnjp/querymen)
+ - **Request body validator** - Using [bodymen](https://github.com/makotovnjp/bodymen)
+ - **Standard error responses** - Using [querymen](https://github.com/makotovnjp/querymen) and [bodymen](https://github.com/makotovnjp/bodymen) error handlers
  - **Unit and integration tests** - Using [Jest](https://github.com/facebook/jest)
  - **Continuous integration support** - Using [Travis CI](https://travis-ci.org/)
  - **API docs generator** - Using [apidoc](http://apidocjs.com/)
- - **Love ♥** - Using [me](https://github.com/diegohaz)
+ - **Love ♥** - Using [me](https://github.com/makotovnjp)
 
 ## Installation
 
@@ -225,16 +225,16 @@ PRs are welcome.
 
 ## Credits
 
-[@QzSG](https://github.com/QzSG) and all [contributors](https://github.com/diegohaz/generator-rest/graphs/contributors)
+[@QzSG](https://github.com/QzSG) and all [contributors](https://github.com/makotovnjp/generator-rest/graphs/contributors)
 
 ## License
 
-MIT © [Diego Haz](https://github.com/diegohaz)
+MIT © [Diego Haz](https://github.com/makotovnjp)
 
 
 [npm-image]: https://badge.fury.io/js/generator-rest.svg
 [npm-url]: https://npmjs.org/package/generator-rest
-[travis-image]: https://travis-ci.org/diegohaz/rest.svg?branch=master
-[travis-url]: https://travis-ci.org/diegohaz/rest
-[coveralls-image]: https://coveralls.io/repos/diegohaz/rest/badge.svg
-[coveralls-url]: https://coveralls.io/r/diegohaz/rest
+[travis-image]: https://travis-ci.org/makotovnjp/rest.svg?branch=master
+[travis-url]: https://travis-ci.org/makotovnjp/rest
+[coveralls-image]: https://coveralls.io/repos/makotovnjp/rest/badge.svg
+[coveralls-url]: https://coveralls.io/r/makotovnjp/rest
