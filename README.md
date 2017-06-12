@@ -229,7 +229,7 @@ PRs are welcome.
 
 ## License
 
-MIT © [Diego Haz](https://github.com/makotovnjp)
+MIT © [Makotovnjp](https://github.com/makotovnjp)
 
 
 [npm-image]: https://badge.fury.io/js/generator-rest.svg
