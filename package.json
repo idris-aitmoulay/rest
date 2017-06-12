@@ -1,12 +1,12 @@
 {
-  "name": "generator-rest",
+  "name": "generator-serverHachiX",
   "version": "0.10.0",
-  "description": "RESTful API generator using NodeJS, Express and MongoDB. Watch https://youtu.be/6x-ijyG-ack",
-  "homepage": "https://github.com/diegohaz/generator-rest",
+  "description": "RESTful API generator using NodeJS, Express and Mongooose and test framework",
+  "homepage": "https://github.com/makotovnjp/rest",
   "author": {
-    "name": "Diego Haz",
-    "email": "hazdiego@gmail.com",
-    "url": "https://github.com/diegohaz"
+    "name": "Nguyen Cong Thanh",
+    "email": "makotovnjp@gmail.com",
+    "url": "https://github.com/makotovnjp"
   },
   "files": [
     "generators"
@@ -23,8 +23,6 @@
     "mongo",
     "mongodb",
     "mongoose",
-    "passport",
-    "ava",
     "api",
     "es6",
     "babel",
