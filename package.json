@@ -1,5 +1,5 @@
 {
-  "name": "generator-serverHachiX",
+  "name": "generator-rest-server",
   "version": "0.1.0",
   "description": "RESTful API generator using NodeJS, Express and Mongooose and test framework",
   "homepage": "https://github.com/makotovnjp/rest",
