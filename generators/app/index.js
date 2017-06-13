@@ -4,6 +4,7 @@ var chalk = require('chalk');
 var yosay = require('yosay');
 var randtoken = require('rand-token');
 var _ = require('lodash');
+var fs = require('fs-extra');
 
 module.exports = yeoman.Base.extend({
   prompting: function () {
@@ -96,6 +97,8 @@ module.exports = yeoman.Base.extend({
     var copyTpl = this.fs.copyTpl.bind(this.fs);
     var tPath = this.templatePath.bind(this);
     var dPath = this.destinationPath.bind(this);
+    var originalEntryPoint = dPath(props.srcDir) + '/index.js';
+    var newEntryPoint = dPath(props.srcDir) + '/' + props.slug + '.js';
 
     copy(tPath('editorconfig'), dPath('.editorconfig'));
     copy(tPath('eslintrc'), dPath('.eslintrc'));
@@ -139,6 +142,13 @@ module.exports = yeoman.Base.extend({
   },
 
   install: function () {
+    var props = this.props;
+    var dPath = this.destinationPath.bind(this);
+    var originalEntryPoint = dPath(props.srcDir) + '/index.js';
+    var newEntryPoint = dPath(props.srcDir) + '/' + props.slug + '.js';
+    //change entry point index.js to appName.js
+    fs.renameSync(originalEntryPoint, newEntryPoint);
+
     this.installDependencies({bower: false});
   }
 });
